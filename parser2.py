@@ -30,11 +30,7 @@ for target_file in target_files:
             "POST": 0,
             "PUT": 0,
             "DELETE": 0,
-            "CONNECT": 0,
-            "OPTIONS": 0,
-            "TRACE": 0,
-            "PATCH": 0,
-            "total_requests": None,
+            "OPTIONS": 0
         }
     }
     all_requests_by_all_ips = {}
