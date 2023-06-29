@@ -6,7 +6,7 @@ from datetime import datetime
 
 parser = argparse.ArgumentParser(description='Process access.log')
 
-parser.add_argument('-target', dest='target', action='store', help='Path to log')
+parser.add_argument('-f', dest='target', action='store', help='Path to log')
 args = parser.parse_args()
 
 target_files = []

@@ -1,1 +1,1 @@
-# hw_08_log
+# python parser2.py -f 'access.log'
